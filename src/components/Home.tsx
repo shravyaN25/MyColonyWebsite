@@ -83,13 +83,13 @@ const Home: React.FC = () => {
         <ul>
           <li>State Syllabus</li>
           <li>CBSE Syllabus</li>
-          <li>And many more</li>
+          <li>And many more!</li>
         </ul>
       </div>
       <div className="amenity-card">
         <div className="amenity-icon">🏋️‍♀️</div>
         <h3 className="amenity-title">Indoor Sports Complex</h3>
-        <p>Right in front of the colony gate, just 200m away! Enjoy a range of facilities, including:</p>
+        <p>Situated right in front of the colony gate! Enjoy a range of facilities, including:</p>
         <ul>
           <li>Swimming Pool</li>
           <li>Badminton Court</li>
