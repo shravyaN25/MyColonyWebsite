@@ -83,7 +83,7 @@ const Home: React.FC = () => {
         <ul>
           <li>State Syllabus</li>
           <li>CBSE Syllabus</li>
-          <li>And many more!</li>
+          <li>And many more</li>
         </ul>
       </div>
       <div className="amenity-card">
