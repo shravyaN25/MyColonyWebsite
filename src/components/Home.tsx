@@ -72,8 +72,65 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+{/* Amenities Section */}
+<section className="amenities">
+  <div className="container">
+    <h2 className="section-title">Amenities and Nearby Attractions</h2>
+    <div className="amenities-grid">
+      <div className="amenity-card">
+        <div className="amenity-icon">📚</div>
+        <h3 className="amenity-title">Library</h3>
+        <p>Just 700m away, easily accessible for all your literary needs.</p>
+      </div>
+      <div className="amenity-card">
+        <div className="amenity-icon">🏫</div>
+        <h3 className="amenity-title">School</h3>
+        <p>Multiple schools available within 5km radius, offering various curricula, including:</p>
+        <ul>
+          <li>State Syllabus</li>
+          <li>CBSE Syllabus</li>
+          <li>And many more!</li>
+        </ul>
+      </div>
+      <div className="amenity-card">
+        <div className="amenity-icon">🏋️‍♀️</div>
+        <h3 className="amenity-title">Indoor Sports Complex</h3>
+        <p>Right in front of the colony gate, just 200m away! Enjoy a range of facilities, including:</p>
+        <ul>
+          <li>Swimming Pool</li>
+          <li>Badminton Court</li>
+          <li>Gym</li>
+          <li>Basketball Court</li>
+          <li>And many more!</li>
+        </ul>
+      </div>
+      <div className="amenity-card">
+        <div className="amenity-icon">🛍️</div>
+        <h3 className="amenity-title">Supermarkets</h3>
+        <p>Get your daily essentials from nearby supermarkets, just a short walk away.</p>
+      </div>
+      <div className="amenity-card">
+        <div className="amenity-icon">🚂</div>
+        <h3 className="amenity-title">Railway Station</h3>
+        <p>Just 2km away, providing easy access to public transportation.</p>
+      </div>
+      <div className="amenity-card">
+        <div className="amenity-icon">🚌</div>
+        <h3 className="amenity-title">Bus Stand</h3>
+        <p>Only 1.5km away, offering convenient travel options.</p>
+      </div>
+      <div className="amenity-card">
+        <div className="amenity-icon">🏥</div>
+        <h3 className="amenity-title">Hospitals</h3>
+        <p>Reputed hospitals nearby, providing quality medical care within easy reach.</p>
+      </div>
+    </div>
+    <p>Annapurna Badavane offers a holistic living experience with all necessary facilities at your doorstep. Our society is surrounded by everything you need, ensuring a comfortable and convenient lifestyle.</p>
+  </div>
+</section>
+
       {/* Testimonials Section */}
-      <section className="testimonials">
+    <section className="testimonials">
         <div className="container">
           <h2 className="section-title">What Our Residents Say</h2>
           <div className="testimonial-grid">
