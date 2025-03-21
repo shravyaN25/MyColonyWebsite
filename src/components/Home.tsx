@@ -119,7 +119,7 @@ const Home: React.FC = () => {
         <p>Reputed hospitals nearby, providing quality medical care within easy reach.</p>
       </div>
     </div>
-    <p class="description">Annapurna Badavane offers a holistic living experience with all necessary facilities at your doorstep. Our society is surrounded by everything you need, ensuring a comfortable and convenient lifestyle.</p>
+    <p className="description">Annapurna Badavane offers a holistic living experience with all necessary facilities at your doorstep. Our society is surrounded by everything you need, ensuring a comfortable and convenient lifestyle.</p>
   </div>
 </section>
       {/* Testimonials Section */}
