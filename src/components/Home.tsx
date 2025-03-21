@@ -76,12 +76,6 @@ const Home: React.FC = () => {
 <section className="amenities">
   <div className="container">
     <h2 className="section-title">Amenities and Nearby Attractions</h2>
-    <div className="amenities-grid">
-      <div className="amenity-card">
-        <div className="amenity-icon">📚</div>
-        <h3 className="amenity-title">Library</h3>
-        <p>Just 700m away, easily accessible for all your literary needs.</p>
-      </div>
       <div className="amenity-card">
         <div className="amenity-icon">🏫</div>
         <h3 className="amenity-title">School</h3>
@@ -125,7 +119,7 @@ const Home: React.FC = () => {
         <p>Reputed hospitals nearby, providing quality medical care within easy reach.</p>
       </div>
     </div>
-    <p>Annapurna Badavane offers a holistic living experience with all necessary facilities at your doorstep. Our society is surrounded by everything you need, ensuring a comfortable and convenient lifestyle.</p>
+   
   </div>
 </section>
 
