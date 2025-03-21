@@ -449,6 +449,86 @@ header::after {
   text-shadow: 0 0 2px rgba(59, 236, 15, 0.3);
 }
 
+.amenities {
+  padding: 5rem 0;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.amenities::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(circle at 25% 25%, rgba(76, 175, 80, 0.03) 0%, rgba(76, 175, 80, 0) 50%), radial-gradient(circle at 75% 75%, rgba(0, 121, 107, 0.03) 0%, rgba(0, 121, 107, 0) 50%);
+  pointer-events: none;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.amenity-card {
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-soft);
+  background: rgba(241, 248, 233, 0.7);
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.amenity-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-primary);
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.amenity-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 5px rgba(80, 149, 87, 0.5));
+  transition: var(--transition);
+}
+
+.amenity-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  transition: var(--transition);
+}
+
+.amenity-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-strong), var(--glow-primary);
+}
+
+.amenity-card:hover .amenity-icon {
+  filter: drop-shadow(0 0 8px rgba(52, 157, 72, 0.8));
+  transform: scale(1.1);
+}
+
+.amenity-card:hover .amenity-title {
+  text-shadow: 0 0 5px rgba(46, 125, 50, 0.3);
+}
+
 /* Testimonials - Enhanced with Glass Effect */
 .testimonials {
   padding: 5rem 0;
