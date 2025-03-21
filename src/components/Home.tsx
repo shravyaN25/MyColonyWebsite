@@ -72,7 +72,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-<section class="amenities">
+<section className="amenities">
   <div class="container">
     <h2 class="section-title">Amenities and Nearby Attractions</h2>
     <div class="amenities-grid">
