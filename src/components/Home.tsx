@@ -134,6 +134,7 @@ const Home: React.FC = () => {
           <div className="footer-content">
             <div className="copyright">
               <center><p>&copy; 2025 Annapurna Badavane Association. All Rights Reserved.</p></center>
+<center>Crafted with ❤️ by Shravya N</center>
             </div>
           </div>
         </div>
