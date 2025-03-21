@@ -103,7 +103,7 @@ const Home: React.FC = () => {
         <h3 className="amenity-title">Supermarkets</h3>
         <p>Get your daily essentials from nearby supermarkets, just a short walk away.</p>
       </div>
-      <div class="amenity-card">
+      <div className="amenity-card">
         <div className="amenity-icon">🚂</div>
         <h3 className="amenity-title">Railway Station</h3>
         <p>Just 2km away, providing easy access to public transportation.</p>
