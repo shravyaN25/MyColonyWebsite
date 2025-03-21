@@ -1,6 +1,6 @@
-# 🏡 Annapurna Badavane - Colony Management Site
+# 🏡 Annapurna Badavane - Colony Site
 
-This is a **React-based Colony Management Website** for "Annapurna Badavane." The site provides features such as community details, security, events, testimonials, a gallery, and a contact form integrated with Web3Forms.
+This is a **React-based Colony Website** for "Annapurna Badavane." The site provides features such as community details, security, events, testimonials, a gallery, and a contact form integrated with Web3Forms.
 
 ## 🌟 Features
 - 🛡 **24/7 Security**
