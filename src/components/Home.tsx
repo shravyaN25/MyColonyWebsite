@@ -64,7 +64,7 @@ const Home: React.FC = () => {
             </div>
             <div className="about-text">
               <h2>About Annapurna Badavane</h2>
-              <p>Established in the year 2003, Annapurna Badavane is more than just a residential colony – it's a thriving community where families grow together.</p>
+              <p>Established in the year 2003, Annapurna Badavane,located in the heart of Hosapete is more than just a residential colony – it's a thriving community where families grow together.</p>
               <p>Managed by the dedicated Annapurna Badavane Association, our community prioritizes the well-being and comfort of all residents while maintaining the highest standards of infrastructure and amenities.</p>
               <p>Located in a prime area with excellent connectivity, Annapurna Badavane offers the perfect balance of tranquility and convenience. Our community is home to over 90 families, and we take pride in our two revered temples - the Ganesha Temple and the Annapurna Devi Temple - which serve as a spiritual hub for our residents.</p>
             </div>
