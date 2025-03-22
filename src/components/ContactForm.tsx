@@ -30,17 +30,26 @@ const ContactForm: React.FC = () => {
         setLoading(true);
         setMessage(null);
 
-        const formPayload = new FormData();
-        formPayload.append("access_key", process.env.REACT_APP_WEB3FORMS_KEY || "");
+        // Debugging: Check if the Web3Forms API key is present
+        console.log("Web3Forms Key:", process.env.REACT_APP_WEB3FORMS_KEY);
 
-        Object.keys(formData).forEach(key => {
-            formPayload.append(key, (formData as any)[key]);
-        });
+        const payload = {
+            access_key: process.env.REACT_APP_WEB3FORMS_KEY || "", // Your Web3Forms API key
+            name: formData.name,
+            email: formData.email,
+            phone: formData.phone,
+            message: formData.message
+        };
 
         try {
-            const response = await axios.post("https://api.web3forms.com/submit", formPayload, {
-                headers: { "Content-Type": "multipart/form-data" }
+            console.log("Submitting form with payload:", payload);
+
+            // Send POST request with JSON format
+            const response = await axios.post("https://api.web3forms.com/submit", payload, {
+                headers: { "Content-Type": "application/json" }
             });
+
+            console.log("Web3Forms Response:", response.data);
 
             if (response.data.success) {
                 setMessage("✅ Message sent successfully!");
@@ -51,6 +60,7 @@ const ContactForm: React.FC = () => {
                 setMessageType("error");
             }
         } catch (error) {
+            console.error("Error sending message:", error);
             setMessage("❌ Error sending message. Try again later.");
             setMessageType("error");
         } finally {
