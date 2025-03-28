@@ -276,18 +276,18 @@ export default function HomePage() {
             {[
               {
                 name: "Padma and GY Niranjan",
-                role: "Resident since 2010",
+                role: "Resident since 2005",
                 quote:
                   "Living in Annapurna Badavane has been a wonderful experience for my family. The community is very supportive and the amenities are well-maintained.",
               },
               {
                 name: "Vidya and Ramesh K",
-                role: "Resident since 2015",
+                role: "Resident since 2005",
                 quote:
                   "I love the peaceful environment and the regular community events. The temples within the colony add a spiritual touch to our daily lives.",
               },
               {
-                name: "Lakshmi and Ajith",
+                name: "Rupa and B V Achar",
                 role: "Resident since 2008",
                 quote:
                   "The security is excellent and the indoor sports complex is a great place for my children to stay active and healthy. Highly recommend this community.",
