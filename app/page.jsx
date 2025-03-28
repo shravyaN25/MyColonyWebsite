@@ -200,7 +200,7 @@ export default function HomePage() {
               {
                 title: "Water Supply",
                 icon: Droplet,
-                description: "Uninterrupted water supply with water treatment plant",
+                description: "Uninterrupted water supply",
               },
               {
                 title: "Green Spaces",
