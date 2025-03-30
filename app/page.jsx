@@ -390,24 +390,7 @@ export default function HomePage() {
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-6">Office Hours</h3>
-              <ul className="space-y-3 text-gray-400">
-                <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
-                  Monday - Friday: 9:00 AM - 6:00 PM
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
-                  Saturday: 9:00 AM - 1:00 PM
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 rounded-full bg-primary mr-3"></div>
-                  Sunday: Closed
-                </li>
-              </ul>
-            </div>
-          </div>
+            
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
             <p>&copy; {new Date().getFullYear()} Made with ❤️ by Shravya N</p>
