@@ -288,9 +288,9 @@ export default function HomePage() {
               },
               {
                 name: "Rupa and B V Achar",
-                role: "Resident since 2008",
+                role: "Resident since 2005",
                 quote:
-                  "The security and safety in this colony is excellent. Regular community events are the best part of all. Highly recommend this community.",
+                   "Safety in this colony is excellent. We love Annapurna Badavane. I Highly recommend this community.",
               },
             ].map((testimonial, index) => (
               <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300">
