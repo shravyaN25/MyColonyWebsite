@@ -190,7 +190,7 @@ export default function HomePage() {
               {
                 title: "Indoor Sports Complex",
                 icon: Tree,
-                description: "Swimming pool, gym, badminton court and many more facilities",
+                description: "Present right infront of the colony main gate and has Swimming pool, gym, badminton court and many more facilities",
               },
               {
                 title: "24/7 Security",
