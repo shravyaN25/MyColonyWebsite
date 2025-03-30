@@ -287,7 +287,7 @@ export default function HomePage() {
                   "I love the peaceful environment and the regular community events. The temples within the colony add a spiritual touch to our daily lives.",
               },
               {
-                name: "Rupa and B V Achar",
+                name: "Rupa and B.V.R Achar",
                 role: "Resident since 2005",
                 quote:
                    "Safety in this colony is excellent. We love Annapurna Badavane. I Highly recommend this community.",
