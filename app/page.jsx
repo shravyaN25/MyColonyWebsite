@@ -243,7 +243,7 @@ export default function HomePage() {
             <div className="w-24 h-1.5 bg-primary mx-auto rounded-full"></div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-            {[...Array(8)].map((_, index) => (
+            {[...Array(12)].map((_, index) => (
               <div
                 key={index}
                 className="relative h-56 md:h-72 rounded-xl overflow-hidden group shadow-md hover:shadow-xl transition-all duration-300"
