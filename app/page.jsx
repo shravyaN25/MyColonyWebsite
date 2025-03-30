@@ -290,7 +290,7 @@ export default function HomePage() {
                 name: "Rupa and B V Achar",
                 role: "Resident since 2008",
                 quote:
-                  "The security is excellent and the indoor sports complex is a great place for my children to stay active and healthy. Highly recommend this community.",
+                  "The security and safety in this colony is excellent. Regular community events are the best part of all. Highly recommend this community.",
               },
             ].map((testimonial, index) => (
               <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300">
@@ -410,7 +410,7 @@ export default function HomePage() {
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Made with ❤️ by Shravya</p>
+            <p>&copy; {new Date().getFullYear()} Made with ❤️ by Shravya N</p>
           </div>
         </div>
       </footer>
