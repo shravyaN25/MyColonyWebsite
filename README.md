@@ -2,13 +2,6 @@
 
 This is a **React-based Website** for my residential colony called "Annapurna Badavane" - A gated community. The site provides features such as community details, testimonials, a gallery, and a contact form integrated with Web3Forms.
 
-## 🌟 Features
-- 🛡 **24/7 Security**
-- 🌳 **Lush Greenery**
-- 🅿 **Ample Parking**
-- 🎭 **Community Events**
-- 📷 **Gallery Section**
-- 📞 **Contact Form (Web3Forms Integration)**
 
 ---
 
