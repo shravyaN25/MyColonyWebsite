@@ -16,8 +16,8 @@ This is a **React-based Colony Website** for "Annapurna Badavane- A gated commun
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/JaiMishra25/colony-management.git
-cd colony-management
+git clone https://github.com/shravyaN25/MyColonyWebsite.git
+cd MyColonyWebsite
 ```
 
 ### **2️⃣ Install Dependencies**
