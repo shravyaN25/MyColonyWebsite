@@ -327,7 +327,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <h4 className="font-medium text-lg">Address</h4>
-                    <p className="text-gray-600 mt-1">Annapurna Badavane, Near VNC ground, Hospet - 583201</p>
+                    <p className="text-gray-600 mt-1">Annapurna Badavane, Near VNC ground, Karnataka, Hospet - 583201</p>
                   </div>
                 </div>
                 <div className="flex items-start group">
